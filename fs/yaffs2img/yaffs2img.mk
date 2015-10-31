@@ -7,7 +7,7 @@
 ROOTFS_YAFFS2IMG_DEPENDENCIES = host-yaffs2
 
 define ROOTFS_YAFFS2IMG_CMD
-	$(HOST_DIR)/usr/bin/mkyaffs2img --all-root $(TARGET_DIR) $@
+	$(HOST_DIR)/usr/bin/mkyaffs2image $(TARGET_DIR) $@
 endef
 
 $(eval $(call ROOTFS_TARGET,yaffs2img))

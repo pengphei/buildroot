@@ -13,6 +13,5 @@ source "fs/tar/Config.in"
 source "fs/ubifs/Config.in"
 source "fs/yaffs2/Config.in"
 source "fs/yaffs2img/Config.in"
-source "fs/ext4/Config.in"
 
 endmenu
